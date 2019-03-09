@@ -32,3 +32,8 @@ function removeElementFromBeginningOfArray(chocolateBars) {
   chocolateBars.slice(1)
   chocolateBars
 }
+
+function destructivelyRemoveElementFromEndOfArray(chocolateBars) {
+  chocolateBars = chocolateBars.slice(-1)
+  chocolateBars
+}
